@@ -1,0 +1,57 @@
+/*Tehty 5.-7.10.2016 Sublime Text:llä*/
+body{
+	font-family: Segoe, sans-serif;
+	font-size: 0.8125em;
+	margin: 0;
+}
+h1{
+	font-size: 3em;
+	color: #ff0000;
+	margin: 0;
+	margin-bottom: 0.25em;
+}
+h2{
+	font-size: 2em;
+	color: #585858;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+.top{
+	background: #d9d9d9;
+	border-bottom: solid 5px #ff0000;
+	padding: 1em;
+	overflow: auto;
+}
+.top p{
+	font-size: 1.5em;
+	color: #585858;
+	background: #b0afaf;
+	border: solid 5px #585858;
+	padding: 0.5em;
+	
+}
+.footer{
+	font-size: 1.2308em;
+	color: #585858;
+	font-weight: bold;
+	border-top: solid 2px #ff0000;
+}
+.footer p{
+	background: #d9d9d9;
+	padding: 0.5em;
+}
+.l-float{
+	float: left;
+}
+.top-texts{
+	margin-left: 10em;
+}
+.bottom{
+	margin: 2em 2em 2em 0;
+	margin-left: 11em;
+}
+.bottom p{
+	margin: 1em;	
+}
