@@ -1,0 +1,98 @@
+/*Tehty 12.-13.10.2016 Sublime Text:llä*/
+body {
+font-family: "Trebuchet MS", Verdana, sans-serif;
+margin: 0;
+}
+.content{max-width: 940px;}
+.header{
+	overflow: hidden;
+	position: relative;
+}
+.box1{
+	padding: 5%;
+	background: #F9F9F9;
+}
+.box2{
+	padding: 5%;
+	background: #DDD;
+}
+.box1 img, .box2 img{
+	margin-bottom: 5%;
+	max-width: 100%;
+}
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 2%;
+	background: silver;
+}
+.nav li{
+	margin: .7em 0;
+}
+.nav a{
+	color: #505050;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding: .25em 0;
+	margin: .15em 0;
+	border: dotted 1px;
+}
+.nav a:hover{
+	color: white;
+	background: #505050;
+}
+
+
+@media screen and (min-width: 425px){
+	.nav li{
+		width: 32%;
+		display: inline-block;
+	}
+	.nav a{padding: 1em 0;}
+
+	body{font-size: 1.25em;}
+
+	.box2 .sq-img{
+	border: solid .5em white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+@media screen and (min-width: 941px){
+	.nav ul{padding: 12px;}
+	.nav li{margin: 0;}
+	/*.header{
+		position: fixed;
+		top: 0;
+	}*/
+	body{font-size: 1em;}
+	h1{font-size: 3em;}
+	h2{font-size: 2em;}
+
+	.content{
+		margin: 0 auto;
+		/*margin-top: 150px;*/
+		border: solid 1px silver;
+		background: url(bottom.jpg) repeat-x bottom;
+		padding-bottom: 57px;
+	}
+	.sq-img{
+		float: right;
+		margin: 0 0 1em 1em;
+	}
+	div{overflow: auto;}
+}
+.header span{
+	background: rgba(255, 255, 255, 0.6);
+	padding: 1em;
+	font-weight: bold;
+	position: absolute;
+	top: 50px;
+	left: 5%;
+}
+.header img{
+	display: block;
+}
+

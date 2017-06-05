@@ -1,0 +1,16 @@
+/*Tehty 13.10.2016 Sublime Text:llä*/
+.header img{
+	width: 100%;
+}
+.content{margin: 2cm;}
+.sq-img{
+	width: 35%;
+	float: left;
+	margin: 5mm 5mm 5mm 0;
+}
+img{width: 50%;}
+.box1, .box2{
+	margin-bottom: 2cm;
+}
+.header span{display: none;}
+.nav{display: none;}
